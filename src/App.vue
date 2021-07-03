@@ -1,5 +1,4 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" width="64" height="64" />
   <Grids msg="Grids" />
 </template>
 
