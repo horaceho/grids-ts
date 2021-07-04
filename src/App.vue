@@ -1,15 +1,18 @@
 <template>
-  <Grids msg="Grids" />
+  <Count msg="Count" />
+  <Grids :rows="10" :cols="9" />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import Count from './components/Count.vue'
 import Grids from './components/Grids.vue'
 
 export default defineComponent({
   name: 'App',
   components: {
-    Grids
+    Count,
+    Grids,
   }
 })
 </script>
